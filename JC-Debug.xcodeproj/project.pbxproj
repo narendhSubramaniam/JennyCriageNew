@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B8AFEC52750DB0600F0629E /* TouchIdImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8AFEC32750DB0600F0629E /* TouchIdImplementation.swift */; };
+		8B8AFEC62750DB0600F0629E /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8AFEC42750DB0600F0629E /* AuthController.swift */; };
 		8B98ABBC2715A83A00635BE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B98ABBB2715A83A00635BE1 /* Main.storyboard */; };
 		8B98ABC22715AB7C00635BE1 /* NotCompatibleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B98ABC12715AB7C00635BE1 /* NotCompatibleViewController.swift */; };
 		8B9942832715B0C9006254BF /* GradientPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99427D2715B0C9006254BF /* GradientPoint.swift */; };
@@ -94,8 +96,6 @@
 		8B99435A2715B5BA006254BF /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9943592715B5BA006254BF /* SignInModel.swift */; };
 		8B99435F2715B5C2006254BF /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99435E2715B5C2006254BF /* UserInfo.swift */; };
 		8B9943652715B853006254BF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9943642715B853006254BF /* CustomTextField.swift */; };
-		8BE8CAB42716CB2E0080AF1F /* TouchIdImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE8CAB22716CB2E0080AF1F /* TouchIdImplementation.swift */; };
-		8BE8CAB52716CB2E0080AF1F /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE8CAB32716CB2E0080AF1F /* AuthController.swift */; };
 		8BE8CABA2716CBAB0080AF1F /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE8CAB92716CBAB0080AF1F /* Progress.swift */; };
 		8BE8CABF2716CC720080AF1F /* SonicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE8CABE2716CC720080AF1F /* SonicModel.swift */; };
 		8BE8CAC42716CCCB0080AF1F /* ResetGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE8CAC32716CCCB0080AF1F /* ResetGoal.swift */; };
@@ -141,6 +141,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B8AFEC32750DB0600F0629E /* TouchIdImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchIdImplementation.swift; sourceTree = "<group>"; };
+		8B8AFEC42750DB0600F0629E /* AuthController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
 		8B98ABBB2715A83A00635BE1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8B98ABC12715AB7C00635BE1 /* NotCompatibleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotCompatibleViewController.swift; sourceTree = "<group>"; };
 		8B99427D2715B0C9006254BF /* GradientPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientPoint.swift; sourceTree = "<group>"; };
@@ -228,8 +230,6 @@
 		8B9943592715B5BA006254BF /* SignInModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
 		8B99435E2715B5C2006254BF /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		8B9943642715B853006254BF /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		8BE8CAB22716CB2E0080AF1F /* TouchIdImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchIdImplementation.swift; sourceTree = "<group>"; };
-		8BE8CAB32716CB2E0080AF1F /* AuthController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
 		8BE8CAB92716CBAB0080AF1F /* Progress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
 		8BE8CABE2716CC720080AF1F /* SonicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonicModel.swift; sourceTree = "<group>"; };
 		8BE8CAC32716CCCB0080AF1F /* ResetGoal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetGoal.swift; sourceTree = "<group>"; };
@@ -288,6 +288,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B8AFEC22750DB0600F0629E /* Touch ID */ = {
+			isa = PBXGroup;
+			children = (
+				8B8AFEC32750DB0600F0629E /* TouchIdImplementation.swift */,
+				8B8AFEC42750DB0600F0629E /* AuthController.swift */,
+			);
+			name = "Touch ID";
+			path = "../../../../../../NewCloneZennyGraig/JennyCraig-iOS/JennyCraig/Helper/Global/Touch ID";
+			sourceTree = "<group>";
+		};
 		8B98ABBA2715A80D00635BE1 /* UIPart */ = {
 			isa = PBXGroup;
 			children = (
@@ -351,7 +361,7 @@
 		8B9942B02715B2DB006254BF /* Global */ = {
 			isa = PBXGroup;
 			children = (
-				8BE8CAB12716CB2E0080AF1F /* Touch ID */,
+				8B8AFEC22750DB0600F0629E /* Touch ID */,
 				8B9942B12715B2DB006254BF /* Constants.swift */,
 				8B9942B22715B2DB006254BF /* KeyboardScroll.swift */,
 				8B9942B32715B2DB006254BF /* GlobalValues.swift */,
@@ -483,16 +493,6 @@
 				8B9943642715B853006254BF /* CustomTextField.swift */,
 			);
 			path = CustomViews;
-			sourceTree = "<group>";
-		};
-		8BE8CAB12716CB2E0080AF1F /* Touch ID */ = {
-			isa = PBXGroup;
-			children = (
-				8BE8CAB22716CB2E0080AF1F /* TouchIdImplementation.swift */,
-				8BE8CAB32716CB2E0080AF1F /* AuthController.swift */,
-			);
-			name = "Touch ID";
-			path = "../../../../../NewCloneZennyGraig/JennyCraig-iOS/JennyCraig/Helper/Global/Touch ID";
 			sourceTree = "<group>";
 		};
 		8BE8CAE02716D5AB0080AF1F /* VedioFile */ = {
@@ -720,7 +720,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BE8CAB42716CB2E0080AF1F /* TouchIdImplementation.swift in Sources */,
 				8B9942A82715B247006254BF /* CustomExtension.swift in Sources */,
 				8B98ABC22715AB7C00635BE1 /* NotCompatibleViewController.swift in Sources */,
 				8B9943482715B554006254BF /* SignInClient.swift in Sources */,
@@ -733,6 +732,7 @@
 				8B9942CD2715B2DB006254BF /* KeyboardScroll.swift in Sources */,
 				8B9942CC2715B2DB006254BF /* Constants.swift in Sources */,
 				8B9942E32715B2DB006254BF /* ColorManager.swift in Sources */,
+				8B8AFEC62750DB0600F0629E /* AuthController.swift in Sources */,
 				8B99431F2715B4FE006254BF /* APIClient.swift in Sources */,
 				8B99430D2715B486006254BF /* LoginViewModel.swift in Sources */,
 				8B9942D82715B2DB006254BF /* ValidationMessage.swift in Sources */,
@@ -764,7 +764,6 @@
 				8B9942DE2715B2DB006254BF /* GlobalNavationController.swift in Sources */,
 				8B9942DB2715B2DB006254BF /* ValidationField.swift in Sources */,
 				DE42A60B2715668C00A291A0 /* User.swift in Sources */,
-				8BE8CAB52716CB2E0080AF1F /* AuthController.swift in Sources */,
 				8B9943072715B47B006254BF /* SignInViewModel.swift in Sources */,
 				8B9942DC2715B2DB006254BF /* RequiredRule.swift in Sources */,
 				8B99433F2715B554006254BF /* SettingClient.swift in Sources */,
@@ -775,6 +774,7 @@
 				8B9943462715B554006254BF /* confirmEmailClient.swift in Sources */,
 				8B9942922715B20F006254BF /* JCLoginSignUpContainerController.swift in Sources */,
 				8B9942F52715B389006254BF /* JCTermsConditionsViewController.swift in Sources */,
+				8B8AFEC52750DB0600F0629E /* TouchIdImplementation.swift in Sources */,
 				8B9943542715B554006254BF /* SonicClient.swift in Sources */,
 				8BE8CAC92716CD210080AF1F /* Motivation.swift in Sources */,
 				8B99435F2715B5C2006254BF /* UserInfo.swift in Sources */,
